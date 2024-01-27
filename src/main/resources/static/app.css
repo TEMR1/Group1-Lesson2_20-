@@ -1,0 +1,11 @@
+.logInScreen{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    text-align: center;
+}
