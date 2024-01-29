@@ -1,0 +1,80 @@
+body{
+    background-color: grey;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.headerButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+}
+
+.headerButton{
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.headerLogoSection{
+    width: 20%;
+    padding: 10px;
+}
+
+.headerLogo{
+    width: 18%;
+}
+
+.textRegistrationPage{
+    padding-top: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.mainLogo{
+    width: 50%;
+}
+
+.registrationSection{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+
+.mainLogoSection{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.registrationButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+
+.registrationButton{
+    height: 40px;
+    width: 70px;
+    background-color: lightGrey;
+    margin-top: 20px;
+}
+
+.registrationInput{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+}
