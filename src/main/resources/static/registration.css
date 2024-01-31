@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: lightGrey;
 }
 
 
@@ -37,8 +37,7 @@ body{
 .textRegistrationPage{
     padding-top: 20px;
     text-align: center;
-    width: auto;
-    height: auto;
+    font-size: 60px;
 }
 
 .mainLogo{
@@ -47,34 +46,32 @@ body{
 
 .registrationSection{
     display: flex;
-    justify-content: space-around;
     width: auto;
 }
 
 .mainLogoSection{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     width: 50%;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-right: 15px;
 }
 
 .registrationButtons{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    margin-right: 20%;
+    justify-content: flex-start;
+    width: 50%;
+    margin-left: 15px;
 }
 
 .registrationButton{
     height: 40px;
     width: 70px;
-    background-color: lightGrey;
     margin-top: 20px;
 }
 
 .registrationInput{
     height: 50px;
-    width: 200px;
+    width: 300px;
     margin-top: 20px;
 }
