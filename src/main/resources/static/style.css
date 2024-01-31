@@ -1,0 +1,41 @@
+html {
+   font-size: 18px;
+}
+
+body {
+   color: #8f8f8f;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+
+a {
+   transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus {
+   text-decoration: none;
+}
+
+a:focus {
+   outline: none;
+}
+
+.btn {
+   padding: 8px 32px;
+}
+.navbar{
+   background-color: rgb(187, 182, 119);
+   margin-top: -20px;
+
+}
+#registrButt{
+   background-color: black;
+   color: azure;
+}
+#introduction{
+   background-color: aliceblue;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
