@@ -14,4 +14,9 @@ public class MainController {
     public String logInWindow() {
         return "logInWindow";
     }
+
+    @GetMapping("/index")
+    public String index() {
+        return "index";
+    }
 }
