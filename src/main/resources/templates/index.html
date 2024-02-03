@@ -37,7 +37,7 @@
                             <a class="nav-link " href="#contact">Registration</a>
                         </li>
                         <li class=" nav-item">
-                            <button id="registrButt" style="margin-left: 320px;"
+                            <button onclick="logInWindow()" id="registrButt" style="margin-left: 320px;"
                             class=" col-lg-6 nav-link " >Registration</button>
                         </li>
                     </ul>
@@ -361,6 +361,13 @@
             </footer>
         </section>
 
+        <script>
+            function logInWindow() {
+                window.location.href = "http://localhost:8080/logInWindow";
+            }
+
+
+        </script>
 
         <script src="slider.js"></script>
 

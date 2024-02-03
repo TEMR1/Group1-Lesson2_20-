@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body>
+<body style="background-color:aliceblue;">
 <nav class="navbar navbar-expand-md">
     <div class="container">
         <div>
@@ -33,23 +33,24 @@
                     <a class="nav-link " href="#contact">Registration</a>
                 </li>
                 <li class=" nav-item">
-                    <button id="registrButt" style="margin-left: 320px;"
-                            class=" col-lg-6 nav-link " >Registration</button>
+                    <button onclick="Lending()" id="registrButt" style="margin-left: 280px;"
+                            class=" col-lg-6 nav-link " >Back To lending</button>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-    <main>
+    <main class="mb-5">
         <h1 class="textRegistrationPage">Registration page</h1>
+        <br>
 
-        <div class="registrationSection">
+        <div style="margin-left:65px" class="registrationSection">
             <div class="mainLogoSection">
                 <img class="mainLogo" src="images/logo.jpg" alt="Logo">
             </div>
 
-            <div class="registrationButtons mb-4">
+            <div class="registrationButtons ">
                     <label><input class="registrationInput" type="text" placeholder="name"></label>
                     <label><input class="registrationInput" type="text" placeholder="surname"></label>
                     <label><input class="registrationInput" type="text" placeholder="email"></label>
@@ -100,5 +101,13 @@
         </p>
     </footer>
 </section>
+
+<script>
+    function Lending() {
+        window.location.href = "http://localhost:8080/index";
+    }
+
+
+</script>
 </body>
 </html>
