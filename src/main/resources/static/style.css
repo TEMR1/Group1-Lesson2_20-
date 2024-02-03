@@ -9,13 +9,24 @@ body {
    overflow-x: hidden;
 }
 
-a {
+.imgAuthorize{
+   max-height:150px;
+   margin-left: 130px;
+   margin-bottom: 50px;
+}
+
+h5{
+   font-style: italic;
+}
+
+a,img {
    transition: all 0.3s ease;
 }
 
 a:hover,
 a:focus {
    text-decoration: none;
+
 }
 
 a:focus {
@@ -34,8 +45,142 @@ a:focus {
    background-color: black;
    color: azure;
 }
-#introduction{
+.introduction{
    background-color: aliceblue;
-   padding-top: 50px;
-   padding-bottom: 50px;
+   padding-top: 100px;
+   padding-bottom: 120px;
+}
+#aboutUS{
+      background-color: rgb(187, 182, 119);
+      padding-top: 80px;
+         padding-bottom: 80px;
+}
+
+#work{
+   background-color: rgb(187, 182, 119);
+}
+
+.slide {
+   margin-right: 40px;
+}
+
+.slideContent {
+   border-radius: 10px;
+   border: 2px solid aliceblue;
+   padding: 30px;
+   width: 400px;
+   height: 230px;
+}
+
+.slidePerson {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.person {
+   display: flex;
+   flex-direction: row;
+}
+
+.details {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.rate {
+   width: 40px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 16px;
+   margin-top: 15px;
+}
+
+.av {
+   width: 50px;
+   height: 50px;
+}
+
+.ps {
+   margin: 0;
+}
+
+.name {
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.city {
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.feedback {
+   text-align: left;
+}
+
+.slider {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   overflow: hidden;
+}
+
+.controlSlider {
+   margin-top: 20px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.points {
+   display: flex;
+   flex-direction: row;
+}
+
+.point {
+   background: aliceblue;
+   width: 15px;
+   height: 15px;
+   border-radius: 7.5px;
+   margin-right: 10px;
+   border: 0px solid;
+}
+
+.arrows {
+   width: 140px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.arrow {
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   background-color: aliceblue;
+   border: 2px solid #95a063;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.arrowWhiteLeft {
+   display: none;
+}
+
+.arrowWhiteRight {
+   display: none;
+}
+
+.footerClass{
+   background-color: #362E2E;
+}
+
+.feedback{
+   background-color: rgb(187, 182, 119);
 }
