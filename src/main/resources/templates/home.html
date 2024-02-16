@@ -1,26 +1,373 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-
-<!--    временный файл, главным сделаем какой-то другой -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
 
     <script>
-        function logIn() {
+        function logInWindow() {
             window.location.href = "http://localhost:8080/logInWindow";
         }
-
-         function Lending() {
-            window.location.href = "http://localhost:8080/index";
-        }
     </script>
-
-
 </head>
 <body>
-<button onclick="logIn()">Register</button>
 
-<button onclick="Lending()">Lending</button>
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+
+                <div>
+                    <a class="navbar-brand">Logo</a>
+                </div>
+
+                <div  class=" m-lg-3 collapse navbar-collapse" >
+                    <ul class="navbar-nav">
+                        <li  class="nav-item">
+                            <a class="nav-link" href="#introduction">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#work">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Prod</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#contact">Registration</a>
+                        </li>
+                        <li class=" nav-item">
+                            <button onclick="logInWindow()" id="registrButt" style="margin-left: 320px;"
+                            class=" col-lg-6 nav-link " >Registration</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="introduction" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div>
+                            <h2 class="tm-text-primary mb-4">Introduction</h2>
+                            <p class="mb-4 ">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </p>
+                            <div>
+                                <a href="#work">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-left:70px;" class="col-lg-4">
+                        <img src="/img/06f6be787771c84be91ba05d8e871207.jpg" alt="Image" class="tm-intro-img" />
+                    </div>
+                </div></div>
+        </section>
+
+        <section id="aboutUS" >
+            <div class="container">
+                <div class="row">
+
+                    <div class="row tm-section-pad-top">
+                        <div class="col-lg-4">
+
+                            <img  class="imgAuthorize" src="/img/098e88f2fb62abcfdb20b1efd559904d.jpg" ></img>
+
+                            <h5 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h5>
+                            <p>
+                                Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
+                                nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
+                                Duis imperdiet lacus justo.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-4 mt-5 mt-lg-0">
+
+
+                            <img  class="imgAuthorize" src="/img/p2.jpg" ></img>
+
+                            <h5 class="text-center tm-text-primary mb-4">Nunc sed metus vel nisi</h5>
+                            <p>
+                                Praesent ut finibus leo. Duis et tempus ipsum, id pretium nunc.
+                                Vivamus imperdiet sem quis orci pharetra convallis. Nunc a tempus
+                                nisi, sed fringilla purus. In hac habitasse platea.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 mt-5 mt-lg-0">
+
+                            <img class="imgAuthorize" src="/img/p39.jpg"></img>
+
+                            <h5 class="text-center tm-text-primary mb-4">Fusce sed nisi sagittis</h5>
+                            <p>
+                                Donec vestibulum libero nisl. Curabitur ac orci ac lorem blandit
+                                volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi.
+                                Vestibulum ante ipsum primis in faucibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="introduction">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="/img/focus.jpg" alt="Image" class="tm-intro-img" />
+                </div>
+                <div class="col-lg-7">
+                    <br>
+                    <div class="tm-intro-text-container">
+                        <h2 class="text-bg-dark mb-4 tm-section-title">About Us #1</h2>
+                        <p class="mb-4 text-bg-light tm-intro-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua. Ut enim ad minim veniam. Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. <br> Excepteur sint
+                            occaecat cupidatat non proident, suntqua de su utre du cali in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                        <div class="tm-next">
+                            <a href="#work" class="tm-intro-text text-light tm-btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="p-3"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="/img/progr.jpg" alt="Image" class="tm-intro-img" />
+                </div>
+                <div class="col-lg-7">
+                    <br>
+                    <div class="tm-intro-text-container">
+                        <h2 class="text-bg-dark mb-4 tm-section-title">About Us #2</h2>
+                        <p class="mb-4 text-bg-light tm-intro-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua. Ut enim ad minim veniam. Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. <br> Excepteur sint
+                            occaecat cupidatat non proident, suntqua de su utre du cali in culpa qui officia deserunt mollit
+                            anim id est laborum."
+                        </p>
+                        <div class="tm-next">
+                            <a href="#work" class="tm-intro-text text-light tm-btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="p-3"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="/img/teg.jpg" alt="Image" class="tm-intro-img" />
+                </div>
+                <div class="col-lg-7">
+                    <br>
+                    <div class="tm-intro-text-container">
+                        <h2 class="text-bg-dark mb-4 tm-section-title">About Us #3</h2>
+                        <p class="mb-4 text-bg-light tm-intro-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua. Ut enim ad minim veniam. Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. <br> Excepteur sint
+                            occaecat cupidatat non proident, suntqua de su utre du cali in culpa qui officia deserunt mollit
+                            anim id est laborum."
+                        </p>
+                        <div class="tm-next">
+                            <a href="#work" class="tm-intro-text text-light tm-btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        </section>
+
+        <section class="feedback">
+            <div class="container">
+            <div class="text">
+                <br><br>
+                <h2 class="text-primary mb-4 tm-section-title">Only high ipsum quality</h2>
+                <p class="p mb-4 text-light">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+            <div class="slider">
+                <div class="slide slide1">
+                    <div class="slideContent">
+                        <div class="slidePerson">
+                            <div class="person">
+                                <img style="margin-top: -15px;"  src="/img/p2.jpg" class="av p-1">
+                                <div class="information">
+                                    <p style="margin-top: -15px;" class="ps text-primary name">Megumi F.</p>
+                                    <p class="ps city">Shibya, Japan</p>
+                                </div>
+                            </div>
+                            <div style="margin-right: 23px; margin-top: 0px;" class="rate">
+                                <img src="/img/icons/star.svg">
+                                <p class="ps">4.5</p>
+                            </div>
+                        </div>
+                        <div class="feedback">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                            eaque ipsa quae.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide slide2">
+                    <div class="slideContent">
+                        <div class="slidePerson">
+                            <div class="person">
+                                    <img style="margin-top: -15px;" src="/img/098e88f2fb62abcfdb20b1efd559904d.jpg" class="av p-1">
+                                <div class="information">
+                                    <p style="margin-top: -15px;" class="ps text-primary name">Yessica Christy</p>
+                                    <p class="ps city">Shanxi, China</p>
+                                </div>
+                            </div>
+                            <div style="margin-right: 23px; margin-top: 0px;" class="rate">
+                                <img src="/img/icons/star.svg">
+                                <p class="ps">5.0</p>
+                            </div>
+                        </div>
+                        <div class="feedback">
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                            ratione voluptatem sequi nesciunt.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide slide3">
+                    <div class="slideContent">
+                        <div class="slidePerson">
+                            <div class="person">
+                                    <img  style="margin-top: -15px;" src="/img/098e88f2fb62abcfdb20b1efd559904d.jpg" class="av p-1">
+                                <div class="information">
+                                    <p style="margin-top: -15px;" class="ps text-primary name">Kim Young Jou</p>
+                                    <p class="ps city">Seoul, South
+                                        Korea</p>
+                                </div>
+                            </div>
+                            <div style="margin-right: 23px; margin-top: 0px;" class="rate">
+                                <img src="/img/icons/star.svg">
+                                <p class="ps">4.5</p>
+                            </div>
+                        </div>
+                        <div class="feedback">
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedquia non numquam eius modi tempora i.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide slide4">
+                    <div class="slideContent">
+                        <div class="slidePerson">
+                            <div class="person">
+                                    <img  style="margin-top: -15px;" src="/img/p39.jpg" class="av p-1">
+                                <div class="information">
+                                    <p  style="margin-top: -15px;" class="ps text-primary name">Chin Chu</p>
+                                    <p class="ps city">Florida, USA</p>
+                                </div>
+                            </div>
+                            <div  style="margin-right: 23px; margin-top: 0px;"  class="rate">
+                                <img src="/img/icons/star.svg">
+                                <p class="ps">4.5</p>
+                            </div>
+                        </div>
+                        <div style="margin-right: 23px; margin-top: 0px;"  class="feedback">
+                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate e quam nihil molestiae consequatur, vel illum qui
+                            dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controlSlider pb-4">
+                <div class="points">
+                    <button class="point"></button>
+                        <button class="point"></button>
+                        <button class="point"></button>
+                        <button class="point"></button>
+                </div>
+                <div class="arrows">
+                    <button class="arrow" id="arrowLeft">
+                        <img class="arrowRedLeft" src="/img/icons/arrowRedLeft.png">
+                        <img class="arrowWhiteLeft" src="/img/icons/arrowWhiteLeft.png">
+                    </button>
+                    <button class="arrow" id="arrowRight">
+                        <img class="arrowRedRight" src="/img/icons/arrowRedRight.png">
+                        <img class="arrowWhiteRight" src="/img/icons/arrowWhiteRight.png">
+                    </button>
+                </div>
+            </div></div>
+        </section>
+
+        <section id="contact" class=" mt-1 footerClass">
+            <div class="container">
+                <div class="row">
+                    <div class="mt-5 col-12">
+                        <h2 class="mb-4 text-light">Contact Us</h2>
+                        <p class="mb-5 text-light">
+                            Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui,
+                            non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices
+                            viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque
+                            at at velit.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 d-flex align-items-center ">
+                        <a href="tel:xxxxxxxxxxx">
+                            <span class="mb-0 text-light">xxx-xxxx-xxxx</span>
+                        </a>
+                    </div>
+                    <div class="col-sm-12  col-md-6 d-flex align-items-center">
+                        <a href="mariaabusaidhtl@gmail.com" >
+                            <span class="mb-0 text-light">mariaabusaidhtl@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex align-items-center">
+                        <form class="mb-5" action="" method="get">
+                            <input name="email" type="email" placeholder="Subscribe your email" required />
+                            <button type="submit" class="btn text-light">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-center small tm-footer">
+                <p class="mb-0">
+                    Copyright &copy; Group Company
+
+                    - Design: <a rel="nofollow" href="mariaabusaidhtl.com" >Moarti</a>
+                </p>
+            </footer>
+        </section>
+
+        <script src="slider.js"></script>
+
 </body>
 </html>
